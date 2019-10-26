@@ -33,6 +33,7 @@ $ docker push anuphnu/jenkins:v0.0.1
 ```bash
 # Init helm and tiller on your cluster
 $ helm init
+$ kubectl apply -f rbac-config.yaml
 
 # Deploy the Jenkins helm chart
 # (same command for install and upgrade)
