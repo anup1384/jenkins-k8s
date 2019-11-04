@@ -8,13 +8,6 @@ This Jenkins has the required tools to work in and with Kubernetes
   - You can add and remove plugins by editing the [plugins.txt](plugins.txt) file
 
 
-### Get the example Docker image
-You can pull an already built version of this Jenkins image from [bintray.com](https://bintray.com).
-```bash
-# Pull the image
-$ docker pull anuphnu/jenkins:v0.0.2
-```
-
 ### Build the Jenkins Docker image
 You can build the image yourself
 ```bash
