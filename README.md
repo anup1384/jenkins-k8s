@@ -6,9 +6,6 @@ This Jenkins has the required tools to work in and with Kubernetes
 - Skipped setup wizard
   - You can control admin user and password with `--set adminUser=${USER},adminPassword=${PASSWORD}`
   - You can add and remove plugins by editing the [plugins.txt](plugins.txt) file
-- Docker for managing a Docker CI lifecycle
-- `kubectl` command line client for working with the Kubernetes API
-- `helm` for managing your helm charts CI/CD lifecycle
 
 
 ### Get the example Docker image
