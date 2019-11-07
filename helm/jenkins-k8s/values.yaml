@@ -19,8 +19,8 @@ image:
       memory: 100Mi
 
 master:
-  adminUser: "YWRtaW4"
-  adminPassword: "cGFzc3dvcmQ"
+  adminUser: "admin"
+  adminPassword: "password"
 
 
 # ## Set the admin user
