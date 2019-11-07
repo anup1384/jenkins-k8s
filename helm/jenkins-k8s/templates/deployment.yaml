@@ -64,12 +64,12 @@ spec:
 #          httpGet:
 #            path: /login
 #            port: {{ .Values.service.internalPort }}
-#          initialDelaySeconds: 120
+#          initialDelaySeconds: 180
 #        readinessProbe:
 #          httpGet:
 #            path: /login
 #            port: {{ .Values.service.internalPort }}
-#          initialDelaySeconds: 120
+#          initialDelaySeconds: 180
         resources:
 {{ toYaml .Values.resources | indent 10 }}
       volumes:
